@@ -1,0 +1,1 @@
+document.querySelector(".search").onclick=function(){document.querySelector("#modal-search").style.display="block",document.querySelector(".search").style.visibility="hidden"},document.querySelector("#close").onclick=function(){document.querySelector("#modal-search").style.display="none",document.querySelector(".search").style.visibility=" visible"};

@@ -1,0 +1,185 @@
+@media screen and (max-width: 767px) {
+ .navigation{
+    button{
+    width: 100%;
+    }
+    .form-control{
+    width: 100% !important;
+    }
+    h1{display: none;}
+    h4{display: none;}
+    h3{
+      font-family: 'Suez One', serif;
+      margin-top: -83px;
+      margin-left: 104px;
+    }
+    h6{
+      margin-top: -10px;
+      margin-left: 103px;
+      font-family: 'Suez One', serif;
+      color:#882d2f;
+      margin-bottom: 35px;
+    }
+  }
+ .row-1{
+    .info{
+      margin-bottom: 30px;
+    }
+    .mozila {
+      margin-top: 10px;
+      width: 94%;
+    }
+  }
+ .row-2{
+    .card{
+      float: left;
+      width: 100%;
+      margin-bottom: 30px;
+      margin-right: 5%;
+    }
+  }
+ .row-3{
+    .btn{
+      width: 94%;
+    }
+   .row-4{
+    h3{
+    width: 100%;
+    text-align: center !important;
+    }
+   }
+ }
+ #hide-article {
+   .btn{
+     width: 100%;
+   }
+ }
+ #hide-article1 {
+   .btn{
+     width: 100%;
+   }
+ }
+ .add{
+   text-align: center;
+   margin-bottom: -50px;
+ }
+ .add1{
+   text-align: center;
+   margin-top: 31px;
+   margin-bottom: -38px;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navigation{
+    button{
+    width: 100%;
+    }
+    .form-control{
+    width: 100% !important;
+    }
+    h3{display: none;}
+    h6{display: none;}
+    h1{
+      font-family: 'Suez One', serif;
+      margin-top: -83px;
+      margin-left: 104px;
+    }
+    h4{
+      margin-top: -10px;
+      margin-left: 103px;
+      font-family: 'Suez One', serif;
+      color:#882d2f;
+    }
+  }
+  .row-1{
+    .info{
+      display: block;
+      margin-bottom: 30px;
+    }
+    .mozila {
+      margin: 15px 10px 10px -10px;
+      width: 100%;
+    }
+  }
+  .row-3{
+    .btn{
+      width: 100%;
+    }
+ }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+ .navigation{
+  button{
+  margin: 3px !important;
+  }
+  .form-control{
+  margin-right: 50px;
+  }
+  h3{display: none;}
+  h6{display: none;}
+  h1{
+    font-family: 'Suez One', serif;
+    margin-top: -83px;
+    margin-left: 104px;
+  }
+  h4{
+    margin-top: -10px;
+    margin-left: 103px;
+    font-family: 'Suez One', serif;
+    color:#882d2f;
+  }
+ }
+  .card{
+    float: left;
+    width: 44%;
+    height: 450px;
+    margin-bottom: 30px;
+    margin-right: 5%;
+  }
+  .info {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .mozila{
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
+}
+@media screen and (min-width: 1200px){
+  .navigation{
+   button{
+   margin: 3px !important;
+   }
+   .form-control{
+   margin-right: 100px;
+   }
+   h3{display: none;}
+   h6{display: none;}
+   h1{
+     font-family: 'Suez One', serif;
+     margin-top: -83px;
+     margin-left: 104px;
+   }
+   h4{
+     margin-top: -10px;
+     margin-left: 103px;
+     font-family: 'Suez One', serif;
+     color:#882d2f;
+   }
+  }
+  .card{
+    float: left;
+    width: 45%;
+    margin-bottom: 30px;
+    margin-right: 5%;
+  }
+  .info {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .mozila{
+      margin-right: 30px;
+    }
+  }
+}
